@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Renown</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<img src="images/logo.png" class="logo"/>
+						<nav>
+							<a href="#contact" class="primary">Request Demo</a>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<video id="myVideo" src="video/renown_video_.mp4" style="border: none; max-height: auto; max-width: 100%;" playsinline autoplay muted loop></video>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>API Model</h2>
+									</header>
+									<table class="alt">
+										<tr>
+											<th>Field</th>
+											<th>Type</th>
+											<th>Description</th>
+										</tr>
+										<tr>
+											<td>trust_score</td>
+											<td>0-100</td>
+											<td>the quality of the wallet <br>
+												0	 = unreliable wallet <br>
+												100  = verified human active in web3 <br>
+											</td>
+										</tr>
+										<tr>
+											<td>score_hash</td>
+											<td>Sep-28-2022 03:29:35 PM +UTC</td>
+											<td>score at time of request</td>
+										</tr>
+										<tr>
+											<td>value_usd</td>
+											<td>$100.00</td>
+											<td>total value</td>
+										</tr>
+										<tr>
+											<td>value</td>
+											<td>1.00143808 Ξ</td>
+											<td>total value in network's native currency</td>
+										</tr>
+										<tr>
+											<td>first_tx_at</td>
+											<td>Sep-28-2022 03:29:35 PM +UTC</td>
+											<td>timestamp of the block which address first appeared</td>
+										</tr>
+										<tr>
+											<td>first_tx_hash</td>
+											<td>0x...aBcD</td>
+											<td>wallet's first transaction hash</td>
+										</tr>
+										<tr>
+											<td>latest_tx_at</td>
+											<td>Sep-28-2022 03:29:35 PM +UTC</td>
+											<td>timestamp of the wallet's last transaction</td>
+										</tr>
+										<tr>
+											<td>latest_tx_hash</td>
+											<td>0x...wXyz</td>
+											<td>wallet's latest transaction hash</td>
+										</tr>
+										<tr>
+											<td>num_tx_30d</td>
+											<td>12</td>
+											<td>number of wallet's transactions past 30 days</td>
+										</tr>
+										<tr>
+											<td>total_tx</td>
+											<td>1,291</td>
+											<td>total number of wallet's transactions</td>
+										</tr>
+										<tr>
+											<td>volume_30d</td>
+											<td>99</td>
+											<td>token volume of wallet's transactions past 30 days (USD)</td>
+										</tr>
+										<tr>
+											<td>total_volume</td>
+											<td>$20,291.00</td>
+											<td>total volume of wallet's transactions (USD)</td>
+										</tr>
+										<tr>
+											<td>contract_interactions</td>
+											<td>[
+												{
+												“contract_address”: “0x...D12b”, <br>
+												“name”: “OpenSea”, <br>
+												“volume”: “$60.00”,<br>
+												“num_transactions”: 481, <br>
+												//.. 
+												}
+												]
+												</td>
+											<td>all the smart contracts wallet has interacted with</td>
+										</tr>
+										<tr>
+											<td>tokens</td>
+											<td>[{
+												name: "Uniswap" , <br>
+												address: “0x...f984”, <br> 
+												quantity: "400", <br>
+												value: "$2,564.00", <br>
+												...}]
+											</td>
+											<td>all the fungible tokens inside wallet</td>
+										</tr>
+										<tr>
+											<td>nfts</td>
+											<td>[{
+												name: "Cryptopunks" , <br>
+												address: “0x...3bbb”, <br>	
+												quantity: "1", <br> 
+												mint_price: "free mint", <br>
+												purchase_price: "124,457 Ξ", <br>
+												...}]
+											</td>
+											<td>all the non-fungible tokens inside wallet</td>
+										</tr>
+										<tr>
+											<td>funds_source</td>
+											<td>[{
+												“Coinbase”: “$200”, <br>
+												“Binance”: “$1000” <br>
+												“Staking": “$25”, <br>
+												}]
+												</td>
+											<td>origin of wallet's funds in USD</td>
+										</tr>
+										<tr>
+											<td>badges</td>
+											<td>ex: exchange, bot, whale, diamond_hands...</td>
+											<td>labels assigned to given wallet based off behavior</td>
+										</tr>
+									</table>
+									<ul class="actions">
+										<li><a href="#contact" class="button next">Request A Demo</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Schedule Demo -->
+				<section id="contact">
+					<div class="inner">
+						<section>
+							<form action="https://api.sheetmonkey.io/form/ikxKS7zv9tLAe7mG5K6Hcq" method="post">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="Name" id="name" required />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="Email" id="email" required />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Request A Demo" class="primary" /></li>
+									<li><input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" /></li>
+									<li><input type="reset" value="Clear" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split">
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-envelope"></span>
+									<h3>Email</h3>
+									<a href="#">sales@getrenown.com</a>
+								</div>
+							</section>
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-phone"></span>
+									<h3>Phone</h3>
+									<span>(703) 473-2792</span>
+								</div>
+							</section>
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-city"></span>
+									<h3>Made in NYC</h3>
+								</div>
+							</section>
+						</section>
+					</div>
+				</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>&copy; Renown, Inc. All rights reserved.</li>
+								<li>Terms of Service</li>
+								<li>Privacy Policy</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script> var vid = document.getElementById("myVideo"); vid.playbackRate = 3.0; </script>
+
+	</body>
+</html>
